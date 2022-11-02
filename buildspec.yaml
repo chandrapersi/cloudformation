@@ -1,0 +1,14 @@
+version: 0.2
+env:
+  variables:
+    ECR_REPO_NAME: "aaaaaa-matchmaking-api"
+phases:
+  pre_build:
+    commands:
+      - echo pre_build
+  build:
+    commands:
+      - echo build
+  post_build:
+    commands:
+      - echo post build
